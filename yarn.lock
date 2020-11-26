@@ -6318,6 +6318,11 @@ kleur@^3.0.3:
   resolved "https://registry.yarnpkg.com/kleur/-/kleur-3.0.3.tgz#a79c9ecc86ee1ce3fa6206d1216c501f147fc07e"
   integrity sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==
 
+konva@^7.2.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/konva/-/konva-7.2.0.tgz#5a670a2a953463e04ecbe48bddc9103b89887f5a"
+  integrity sha512-YgSNIV588TWZuVlgP9vD+/TpLIpyNAw3ZwhXGCSC/6wKVKo/z5rqWMedw9Mg8MhvvSLWlEFQXEMPbgNJLIHVgw==
+
 launch-editor-middleware@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/launch-editor-middleware/-/launch-editor-middleware-2.2.1.tgz#e14b07e6c7154b0a4b86a0fd345784e45804c157"
@@ -9758,6 +9763,11 @@ vue-jest@^3.0.5:
     source-map "^0.5.6"
     tsconfig "^7.0.0"
     vue-template-es2015-compiler "^1.6.0"
+
+vue-konva@^2.1.6:
+  version "2.1.6"
+  resolved "https://registry.yarnpkg.com/vue-konva/-/vue-konva-2.1.6.tgz#f0d8dd9d5a2a55a8a89526d7fe0e55f3d60fa7bc"
+  integrity sha512-N0zuxDKDd3N9Y+7eGHkp9yB0Y68pjHc6tDZycozuohuOkDDsQ0GGqb7DloEp5tVKww9tWi+6wsigumG4jIXiGQ==
 
 "vue-loader-v16@npm:vue-loader@^16.0.0-beta.7":
   version "16.0.0"
