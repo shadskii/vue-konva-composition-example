@@ -1,20 +1,23 @@
 <template>
   <div ref="stageParent" class="bg">
     <v-stage :config="configKonva" ref="stage">
-      <v-layer>
+      <!-- <v-layer>
         <v-circle :config="configCircle"></v-circle>
-      </v-layer>
+      </v-layer> -->
+      <background />
       <konva-layer />
     </v-stage>
   </div>
 </template>
 <script>
 import KonvaLayer from './KonvaLayer.vue';
+import Background from './background.konva.vue';
 
 export default {
   name: 'KonvaStage',
   components: {
-    KonvaLayer
+    KonvaLayer,
+    Background
   },
   provide() {
     return {
@@ -38,6 +41,7 @@ export default {
     };
   },
   mounted() {
+    this.fitStageIntoParentContainer();
     window.addEventListener('resize', this.fitStageIntoParentContainer);
   },
   beforeDestroy() {
@@ -65,6 +69,6 @@ export default {
 
 <style>
 .bg {
-  background-color: black;
+  /* background-color: black; */
 }
 </style>
